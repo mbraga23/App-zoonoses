@@ -1,0 +1,15 @@
+{
+  "zones": [
+    {"id": "zone-1", "name": "Zona 1"},
+    {"id": "zone-2", "name": "Zona 2"}
+  ],
+  "streets": [
+    {"id": "st-1", "zoneId": "zone-1", "name": "Rua das Palmeiras", "block": "Quadra A", "sector": "Setor 1", "reference": "Próximo à escola"},
+    {"id": "st-2", "zoneId": "zone-1", "name": "Avenida Central", "block": "Quadra B", "sector": "Setor 2", "reference": "Mercado Azul"},
+    {"id": "st-3", "zoneId": "zone-2", "name": "Rua das Flores", "block": "Quadra C", "sector": "Setor 3", "reference": "Praça Verde"}
+  ],
+  "agents": [
+    {"id": "agent-1", "name": "Maria Silva", "username": "maria", "activeZoneId": "zone-1"},
+    {"id": "agent-2", "name": "João Souza", "username": "joao", "activeZoneId": "zone-2"}
+  ]
+}
